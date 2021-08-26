@@ -1,0 +1,20 @@
+print('Hello, world!')
+print("Starting")
+for i in range(0,30,1):
+    print("Hola ", end=" ")
+print()
+print("Final")
+
+for a in "AMIGO":
+    print("Dame una", {a})
+print("¡AMIGO!")
+
+veces = int(input("¿Cuántas veces quiere que le salude? "))
+for i in range(1,veces+1,1):
+    print("Holis ", end="")
+
+if i==13:
+	print("\n", "....it´ll always be in my mind")
+
+print()
+print("Adiós")
